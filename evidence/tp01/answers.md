@@ -23,8 +23,6 @@
 
 ## Partie D2
 
-## Partie D2
-
 | Élément | Preuve produite dans TP01 | Limite restante |
 |---|---|---|
 | Code | Commit Git | Les modifications non commitées ne sont pas identifiées par ce commit |
