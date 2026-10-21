@@ -1,0 +1,26 @@
+[project]
+name = "churnlab"
+version = "0.1.0"
+description = "Telco customer churn project for the ESILV MLOps course"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "numpy~=1.26.0",
+    "pandas>=2.1,<2.3",
+    "scikit-learn>=1.4,<1.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/churnlab"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,30 @@
+# Environments
+.venv/
+.venv-backup/
+.venv-backup-*/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Credentials and local state
+.env
+.DS_Store
+.ipynb_checkpoints/
+
+# Raw data (source URL and hash are tracked in data/raw/telco.source.json)
+data/raw/*.csv
+
+# Generated files
+data/processed/*
+!data/processed/.gitkeep
+artifacts/*
+!artifacts/.gitkeep
+reports/*
+!reports/.gitkeep
+mlruns/
+mlflow.db
