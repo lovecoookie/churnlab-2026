@@ -23,6 +23,8 @@
 
 ## Partie D2
 
+## Partie D2
+
 | Élément | Preuve produite dans TP01 | Limite restante |
 |---|---|---|
 | Code | Commit Git | Les modifications non commitées ne sont pas identifiées par ce commit |
@@ -31,12 +33,13 @@
 | Données sources | URL source et SHA-256 | N'établit pas la qualité des labels ni l'absence de fuite |
 | Modèle entraîné | Non produit dans TP01 | Il faudra des preuves d'entraînement, de configuration et d'artefacts |
 
-Constat après recréation de `.venv` : Constat après recréation de `.venv` : les versions de Python et des paquets (churnlab, pandas, numpy, scikit-learn) ainsi que le hash des données sont identiques avant et après.
+Constat après recréation de `.venv` : les versions de Python et des paquets (churnlab, pandas, numpy, scikit-learn) ainsi que le hash des données sont identiques avant et après.
 
 ## Partie E
 
-- URL de la pull request : (à compléter)
-- Hash du commit : (à compléter)
+- URL de la pull request : https://github.com/lovecoookie/churnlab-2026/pull/1
+- Hash du commit : 37a5ace (commit du README), fusionné dans main par 49587af
+- Relecture : réalisée par moi-même, TP fait seule
 
 ## Partie F
 
